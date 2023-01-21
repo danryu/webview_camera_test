@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>webview_camera_test.qml</file>
+    </qresource>
+</RCC>
