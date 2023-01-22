@@ -8,7 +8,7 @@ Rectangle {
     width: 800
     height: 600
 
-    WebEngineView {
+    WebView {
         id: webView
         x: 0
         y: 60
@@ -19,9 +19,6 @@ Rectangle {
         onLoadingChanged: function(loadRequest) {
             if (loadRequest.errorString)
                 console.error(loadRequest.errorString);
-        }
-        onFeaturePermissionRequested: {
-            grantFeaturePermission(securityOrigin, feature, true);
         }
     }
 
