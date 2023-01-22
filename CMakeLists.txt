@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(webview_camera_test LANGUAGES CXX)
 
 #FIXME - doesn't work!
-set(ENV{QT_WEBVIEW_PLUGIN} "native")
+#set(ENV{QT_WEBVIEW_PLUGIN} "native")
 
 set(CMAKE_AUTOMOC ON)
 
